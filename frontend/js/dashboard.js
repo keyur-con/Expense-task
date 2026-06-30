@@ -271,7 +271,7 @@ function clearForm() {
   amountInput.value = "";
   commentInput.value = "";
   statusInput.value = "Pending";
-  department.value = "";
+  departmentInput.value = "";
   titleInput.disabled = false;
   amountInput.disabled = false;
   statusInput.disabled = false;
