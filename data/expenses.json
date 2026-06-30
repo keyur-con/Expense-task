@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2,
+    "title": "headphones",
+    "amount": 2000,
+    "comment": "Hello",
+    "status": "Approved",
+    "department": "HR"
+  },
+  {
+    "id": 4,
+    "title": "Books",
+    "amount": 500,
+    "comment": "Employees",
+    "status": "Pending",
+    "department": "Finance"
+  },
+  {
+    "id": 6,
+    "title": "keyboard",
+    "amount": 600,
+    "comment": "",
+    "status": "Pending",
+    "department": "IT"
+  },
+  {
+    "id": 7,
+    "title": "pendrives",
+    "amount": 1500,
+    "comment": "",
+    "status": "Pending",
+    "department": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "lights",
+    "amount": 1000,
+    "comment": "Office",
+    "status": "Pending",
+    "department": "Marketing"
+  },
+  {
+    "id": 9,
+    "title": "Hdmi cable",
+    "amount": 800,
+    "comment": "",
+    "status": "Pending",
+    "department": "Finance"
+  },
+  {
+    "id": 10,
+    "title": "monitor",
+    "amount": 5000,
+    "comment": "",
+    "status": "Pending",
+    "department": "HR"
+  },
+  {
+    "id": 11,
+    "title": "Chairs",
+    "amount": 1200,
+    "comment": "",
+    "status": "Rejected",
+    "department": "IT"
+  },
+  {
+    "id": 12,
+    "title": "Mouse",
+    "amount": 500,
+    "comment": "Office",
+    "status": "Pending",
+    "department": "HR"
+  },
+  {
+    "id": 13,
+    "title": "AA",
+    "amount": 773753,
+    "comment": "",
+    "status": "Pending",
+    "department": "IT"
+  }
+]

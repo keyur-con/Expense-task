@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.top-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-bar input,
+.top-bar select,
+.top-bar button {
+  padding: 10px;
+}
+
+.top-bar input {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#pageNumbers {
+    display: flex;
+    gap: 8px;
+}
+
+.page-btn ,
+#nextBtn ,
+#prevBtn{
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.active-page {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.expense-form{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button{
+    padding:10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: white;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    position: relative;
+}
+
+.modal-content input,
+.modal-content select,
+.modal-content button {
+    padding: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+    font-size: 24px;
+    cursor: pointer;
+}

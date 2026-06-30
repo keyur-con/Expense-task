@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="./css/dashboard.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <input type="text" id="search" placeholder="Search expense..." />
+
+        <select id="statusFilter">
+          <option value="">All Status</option>
+          <option value="Pending">Pending</option>
+          <option value="Approved">Approved</option>
+          <option value="Rejected">Rejected</option>
+        </select>
+        <select id="departmentFilter">
+          <option value="">All Departments</option>
+
+          <option value="IT">IT</option>
+
+          <option value="HR">HR</option>
+
+          <option value="Finance">Finance</option>
+
+          <option value="Marketing">Marketing</option>
+        </select>
+        <button id="addExpenseBtn">Add Expense</button>
+
+        <button id="logoutBtn">Logout</button>
+      </div>
+      <h3 id="pendingAmount">Total Pending Amount : ₹0</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Amount</th>
+            <th>Comment</th>
+            <th>Status</th>
+            <th>Department</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <p id="loading" style="display: none">Loading...</p>
+        <tbody id="expenseTable"></tbody>
+      </table>
+
+      <div id="expenseModal" class="modal">
+        <div class="modal-content">
+          <span id="closeModal" class="close">&times;</span>
+
+          <h2 id="modalTitle">Add Expense</h2>
+
+          <input type="text" id="title" placeholder="Title" />
+
+          <input type="number" id="amount" placeholder="Amount" />
+
+          <input type="text" id="comment" placeholder="Comment" />
+
+          <select id="status">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+          </select>
+          <select id="department">
+            <option value="">Select Department</option>
+
+            <option value="IT">IT</option>
+
+            <option value="HR">HR</option>
+
+            <option value="Finance">Finance</option>
+
+            <option value="Marketing">Marketing</option>
+          </select>
+          <button id="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <button id="prevBtn">Prev</button>
+        <div id="pageNumbers"></div>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+
+    <script src="./js/dashboard.js"></script>
+  </body>
+</html>
