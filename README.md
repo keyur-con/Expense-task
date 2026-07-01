@@ -18,9 +18,6 @@ A simple expense management app with login, dashboard, and approval workflow.
    ```
 3. Open `login.html` in your browser.
 
-## Login
-- Username: `admin`
-- Password: `1234`
 
 ## Features
 - Login with JWT
